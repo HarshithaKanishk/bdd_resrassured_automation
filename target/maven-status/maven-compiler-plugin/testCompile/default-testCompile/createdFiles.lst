@@ -1,0 +1,5 @@
+com\example\api\runner\stepdefinitions\CreateBooking.class
+com\example\api\runner\stepdefinitions\UpdateBooking.class
+com\example\api\runner\stepdefinitions\DeleteBooking.class
+com\example\api\runner\stepdefinitions\GetBookingDetails.class
+com\example\api\runner\TestRunner.class

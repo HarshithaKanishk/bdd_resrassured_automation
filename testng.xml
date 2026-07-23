@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CREATE BOOKING">
+
+    <test name="Test Booking API">
+        <classes>
+            <class name="com.example.api.runner.TestRunner"/>
+        </classes>
+    </test>
+
+    <!-- <test name="Get Booking">
+        <classes>
+            <class name="com.example.api.runner.GetBookingRunner"/>
+        </classes>
+    </test>
+
+    <test name="Update Booking">
+        <classes>
+            <class name="com.example.api.runner.UpdateBookingRunner"/>
+        </classes>
+    </test>
+
+    <test name="Delete Booking">
+        <classes>
+            <class name="com.example.api.runner.DeleteBookingRunner"/>
+        </classes>
+    </test> -->
+
+</suite>

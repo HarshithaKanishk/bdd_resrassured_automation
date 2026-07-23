@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="20.287" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Harshitha\Desktop\bdd_resrassured_automation\target\test-classes;C:\Users\Harshitha\Desktop\bdd_resrassured_automation\target\classes;C:\Users\Harshitha\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Harshitha\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Harshitha\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Harshitha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Harshitha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Harshitha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Harshitha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Harshitha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Harshitha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Harshitha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Harshitha\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Harshitha\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Harshitha\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Harshitha\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Harshitha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Harshitha\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Harshitha\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Harshitha\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Harshitha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Harshitha\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Harshitha\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Harshitha\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Harshitha\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Harshitha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\Harshitha\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Harshitha\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Harshitha\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Harshitha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Harshitha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\Harshitha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\Harshitha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\Harshitha\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Harshitha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Harshitha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Harshitha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Harshitha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Harshitha\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Harshitha\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\Harshitha\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\Harshitha\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Playwright\jdk-25_windows-x64_bin (1)\jdk-25.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Harshitha\AppData\Local\Temp\surefire17662437502066908353\surefirebooter-20260723160014662_3.jar C:\Users\Harshitha\AppData\Local\Temp\surefire17662437502066908353 2026-07-23T16-00-14_309-jvmRun1 surefire-20260723160014662_1tmp surefire_0-20260723160014662_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Harshitha\Desktop\bdd_resrassured_automation\target\test-classes;C:\Users\Harshitha\Desktop\bdd_resrassured_automation\target\classes;C:\Users\Harshitha\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\Harshitha\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\Harshitha\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\Harshitha\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Harshitha\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Harshitha\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Harshitha\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Harshitha\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Harshitha\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Harshitha\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\json-schema-validator\5.5.0\json-schema-validator-5.5.0.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Harshitha\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Harshitha\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Harshitha\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Harshitha\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\Harshitha\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Harshitha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Harshitha\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Harshitha\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\Harshitha\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Harshitha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Harshitha\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Harshitha\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Harshitha\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\Harshitha\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\Harshitha\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Harshitha\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Harshitha\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\Harshitha\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Harshitha\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Harshitha\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Harshitha\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Harshitha\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\Harshitha\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\Harshitha\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\Harshitha\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Harshitha\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Harshitha\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Harshitha\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Harshitha\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Harshitha\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Harshitha\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\Harshitha\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\Harshitha\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Harshitha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Playwright\jdk-25_windows-x64_bin (1)\jdk-25.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Harshitha\Desktop\bdd_resrassured_automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Harshitha\AppData\Local\Temp\surefire17662437502066908353\surefirebooter-20260723160014662_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
+    <property name="user.name" value="Harshitha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Harshitha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HARSHI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\Harshitha\Desktop\bdd_resrassured_automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Playwright\jdk-25_windows-x64_bin (1)\jdk-25.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python314\Scripts\;C:\Python314\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Playwright\jdk-25_windows-x64_bin (1)\jdk-25.0.1\bin;C:\Playwright\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Harshitha\AppData\Local\Microsoft\WindowsApps;C:\Users\Harshitha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Playwright\IntelliJ IDEA 2025.3.1.1\bin;C:\Users\Harshitha\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS-27"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Create a new booking successfully&quot;, &quot;Create Booking&quot;](1)" classname="com.example.api.runner.TestRunner" time="7.315">
+    <system-out><![CDATA[
+Scenario: Create a new booking successfully   # src/test/resources/features/booking.feature:3
+Reading File : C:\Users\Harshitha\Desktop\bdd_resrassured_automation\src\test\resources\testData\createUser.json
+File Exists : true
+Object Created : pojo.Booking@3506d826
+  Given User has booking details              # com.example.api.runner.stepdefinitions.CreateBooking.userHasBookingDetails()
+Created Booking ID : 1996
+  When User creates a booking                 # com.example.api.runner.stepdefinitions.CreateBooking.userCreatesABooking()
+{
+    "bookingid": 1996,
+    "booking": {
+        "firstname": "James Reds",
+        "lastname": "Testing",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-02-01",
+            "checkout": "2019-02-01"
+        },
+        "additionalneeds": "Lunch"
+    }
+}
+Booking created successfully.
+  Then Booking should be created successfully # com.example.api.runner.stepdefinitions.CreateBooking.bookingShouldBeCreatedSuccessfully()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Delete the booking successfully&quot;, &quot;Delete Booking&quot;](2)" classname="com.example.api.runner.TestRunner" time="3.925">
+    <system-out><![CDATA[
+Scenario: Delete the booking successfully     # src/test/resources/features/deleteuser.feature:3
+Reading File : C:\Users\Harshitha\Desktop\bdd_resrassured_automation\src\test\resources\testData\auth.json
+File Exists : true
+Object Created : pojo.Auth@11d2714a
+Generated Token : 0df5ca146923c2d
+  Given User has booking details for delete   # com.example.api.runner.stepdefinitions.DeleteBooking.userHasBookingDetailsForDelete()
+Created
+Booking deleted successfully.
+  Then Booking should be deleted successfully # com.example.api.runner.stepdefinitions.DeleteBooking.bookingShouldBeDeletedSuccessfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get booking details successfully&quot;, &quot;Get Booking Details&quot;](3)" classname="com.example.api.runner.TestRunner" time="3.483">
+    <system-out><![CDATA[
+Scenario: Get booking details successfully                  # src/test/resources/features/getBookingDetails.feature:3
+Reading File : C:\Users\Harshitha\Desktop\bdd_resrassured_automation\src\test\resources\testData\createUser.json
+File Exists : true
+Object Created : pojo.Booking@c262f2f
+  Given User has booking details                            # com.example.api.runner.stepdefinitions.CreateBooking.userHasBookingDetails()
+Created Booking ID : 2057
+  And User creates a booking                                # com.example.api.runner.stepdefinitions.CreateBooking.userCreatesABooking()
+Booking ID : 2057
+  When User retrieves the booking details                   # com.example.api.runner.stepdefinitions.GetBookingDetails.userRetrievesTheBookingDetails()
+========= GET Response =========
+{
+    "firstname": "James Reds",
+    "lastname": "Testing",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-02-01",
+        "checkout": "2019-02-01"
+    },
+    "additionalneeds": "Lunch"
+}
+  Then User should receive the booking details successfully # com.example.api.runner.stepdefinitions.GetBookingDetails.userShouldReceiveTheBookingDetailsSuccessfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Update the booking successfully&quot;, &quot;Update Booking&quot;](4)" classname="com.example.api.runner.TestRunner" time="3.371">
+    <system-out><![CDATA[
+Scenario: Update the booking successfully     # src/test/resources/features/updateBooking.feature:3
+******** UPDATE GIVEN EXECUTED ********
+Reading File : C:\Users\Harshitha\Desktop\bdd_resrassured_automation\src\test\resources\testData\update.json
+File Exists : true
+Object Created : pojo.Booking@d49e8c6
+Booking = pojo.Booking@d49e8c6
+  Given User has booking details for update   # com.example.api.runner.stepdefinitions.UpdateBooking.userHasBookingDetailsForUpdate()
+Reading File : C:\Users\Harshitha\Desktop\bdd_resrassured_automation\src\test\resources\testData\auth.json
+File Exists : true
+Object Created : pojo.Auth@5896cb9c
+Generated Token : 9ec63fd020bb13e
+Booking ID : 2057
+Booking Object : pojo.Booking@d49e8c6
+  When User update a booking                  # com.example.api.runner.stepdefinitions.UpdateBooking.userUpdatesABooking()
+{
+    "firstname": "Harshitha",
+    "lastname": "Kanishk",
+    "totalprice": 10,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2026-07-23",
+        "checkout": "2027-07-24"
+    },
+    "additionalneeds": "Dinner"
+}
+Booking updated successfully.
+  Then Booking should be updated successfully # com.example.api.runner.stepdefinitions.UpdateBooking.bookingShouldBeUpdatedSuccessfully()
+]]></system-out>
+  </testcase>
+</testsuite>

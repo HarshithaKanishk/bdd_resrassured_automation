@@ -1,0 +1,11 @@
+{
+    "firstname" : "James Reds",
+    "lastname" : "Testing",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2018-02-01",
+        "checkout" : "2019-02-01"
+    },
+    "additionalneeds" : "Lunch"
+}
