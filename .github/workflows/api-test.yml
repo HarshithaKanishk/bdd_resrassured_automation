@@ -64,7 +64,7 @@ jobs:
 
           subject: "Rest Assured API Automation Execution Report"
 
-          to: ananth021996@gmail.com
+          to: to: ananth021996@gmail.com,abhiramik.bca@gmail.com
 
           # Optional
           # cc: manager@gmail.com
