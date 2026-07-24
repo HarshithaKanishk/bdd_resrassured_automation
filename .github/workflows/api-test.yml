@@ -13,7 +13,7 @@ on:
 
   # Runs every day at 10:00 AM IST (04:30 UTC)
   schedule:
-    - cron: "0 5 * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   api-test:
@@ -90,7 +90,7 @@ jobs:
             Job Status: ${{ job.status }}
 
             Regards,
-            GitHub Actions
+            Harshitha Kanishk
 
           attachments: |
             target/surefire-reports/emailable-report.html
